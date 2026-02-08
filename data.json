@@ -1,0 +1,136 @@
+[{
+        "id": 1,
+        "title": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/",
+        "description": "Базовая документация з HTML, CSS та JavaScript. Біблія веб-розробника.",
+        "category": "Документація",
+        "tag": "Docs",
+        "image": "https://cdn-1.webcatalog.io/catalog/mdn-web-docs/mdn-web-docs-social-preview.png?v=1714775085873"
+    },
+    {
+        "id": 2,
+        "title": "CSS-Tricks",
+        "url": "https://css-tricks.com/",
+        "description": "Щоденні статті про CSS, HTML, JS та все, що пов'язано з версткою.",
+        "category": "Документація",
+        "tag": "Блог",
+        "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": 3,
+        "title": "Awwwards",
+        "url": "https://www.awwwards.com/",
+        "description": "Підбірка найкращих сайтів світу. Нагороди за дизайн, креатив та інновації.",
+        "category": "Натхнення",
+        "tag": "Нагороди",
+        "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": 4,
+        "title": "Dribbble",
+        "url": "https://dribbble.com/",
+        "description": "Платформа, де дизайнери діляться своїми невеликими скріншотами (шотами).",
+        "category": "Натхнення",
+        "tag": "Портфоліо",
+        "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": 5,
+        "title": "CodePen",
+        "url": "https://codepen.io/",
+        "description": "Онлайн-редактор коду та спільнота фронтендерів. Чудово підходить для тестів.",
+        "category": "Інструменти",
+        "tag": "Редактор",
+        "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": 6,
+        "title": "Can I Use",
+        "url": "https://caniuse.com/",
+        "description": "Таблиці підтримки HTML5, CSS3 та інших технологій у різних браузерах.",
+        "category": "Інструменти",
+        "tag": "Перевірка",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": 7,
+        "title": "GitHub",
+        "url": "https://github.com/",
+        "description": "Найбільший веб-сервіс для хостингу IT-проєктів та їхньої спільної розробки.",
+        "category": "Інструменти",
+        "tag": "Git",
+        "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": 8,
+        "title": "Figma",
+        "url": "https://www.figma.com/",
+        "description": "Найпопулярніший інструмент для дизайну інтерфейсів та прототипування.",
+        "category": "Інструменти",
+        "tag": "Дизайн",
+        "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": 9,
+        "title": "Stack Overflow",
+        "url": "https://stackoverflow.com/",
+        "description": "Система питань та відповідей для програмістів. Порятунок для кожного кодера.",
+        "category": "Документація",
+        "tag": "Спільнота",
+        "image": "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": 10,
+        "title": "Google Fonts",
+        "url": "https://fonts.google.com/",
+        "description": "Бібліотека з понад 1000 безкоштовних шрифтів для вашого сайту.",
+        "category": "Ресурси",
+        "tag": "Шрифти",
+        "image": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png"
+    },
+    {
+        "id": 11,
+        "title": "Coolors",
+        "url": "https://coolors.co/",
+        "description": "Супершвидкий генератор колірних схем для дизайнерів.",
+        "category": "Інструменти",
+        "tag": "Кольори",
+        "image": "https://images.unsplash.com/photo-1502691876148-a84978e59af8?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": 12,
+        "title": "Behance",
+        "url": "https://www.behance.net/",
+        "description": "Медіа-платформа, що належить Adobe, для демонстрації творчих робіт.",
+        "category": "Натхнення",
+        "tag": "Портфоліо",
+        "image": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": 13,
+        "title": "React Docs",
+        "url": "https://react.dev/",
+        "description": "Офіційна документація до найпопулярнішої JS-бібліотеки.",
+        "category": "Документація",
+        "tag": "Бібліотека",
+        "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": 14,
+        "title": "Unsplash",
+        "url": "https://unsplash.com/",
+        "description": "Джерело безкоштовних зображень високої якості для ваших проєктів.",
+        "category": "Ресурси",
+        "tag": "Зображення",
+        "image": "https://images.unsplash.com/photo-1490604001847-b712b0c2f967?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": 15,
+        "title": "Font Awesome",
+        "url": "https://fontawesome.com/",
+        "description": "Найпопулярніший набір іконок та інструментів для веб-сайтів.",
+        "category": "Ресурси",
+        "tag": "Іконки",
+        "image": "https://images.unsplash.com/photo-1555421689-491a97ff2040?q=80&w=1000&auto=format&fit=crop"
+    }
+]

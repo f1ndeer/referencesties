@@ -1,0 +1,200 @@
+/* --- Базовые настройки --- */
+
+:root {
+    --primary: #2563eb;
+    /* Яркий синий */
+    --bg-body: #f3f4f6;
+    /* Светло-серый фон страницы */
+    --bg-card: #ffffff;
+    /* Белый фон карточки */
+    --text-main: #1f2937;
+    /* Темный текст */
+    --text-muted: #6b7280;
+    /* Серый текст */
+    --radius: 16px;
+    /* Закругление углов */
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    line-height: 1.5;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+
+/* --- Header --- */
+
+.referenc_header {
+    text-align: center;
+    padding: 80px 0 40px;
+}
+
+.referenc_header-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 10px;
+    letter-spacing: -0.02em;
+}
+
+.referenc_header-text {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+}
+
+
+/* --- Сетка и Секции --- */
+
+.referenc_section {
+    margin-bottom: 60px;
+}
+
+.section_title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-left: 5px solid var(--primary);
+}
+
+.referenc_grid {
+    display: grid;
+    /* Умная сетка: карточки сами переносятся */
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+
+/* --- Карточка --- */
+
+.card {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    overflow: hidden;
+    /* Чтобы картинка не вылезала за углы */
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    /* Убираем подчеркивание ссылок */
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+
+
+/* Блок картинки */
+
+.card-image-wrapper {
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Картинка заполняет блок, не растягиваясь */
+    transition: transform 0.5s ease;
+}
+
+.card:hover .card-image-wrapper img {
+    transform: scale(1.05);
+    /* Легкое приближение при наведении */
+}
+
+
+/* Тег поверх картинки */
+
+.card-tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--text-main);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Контент карточки */
+
+.card-content {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--text-main);
+}
+
+.card-description {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+    flex-grow: 1;
+    /* Толкает кнопку вниз */
+}
+
+.card-btn {
+    display: inline-block;
+    text-align: center;
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.card-btn:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* --- Footer --- */
+
+.referenc_footer {
+    text-align: center;
+    padding: 40px 0;
+    color: var(--text-muted);
+    border-top: 1px solid #e5e7eb;
+    margin-top: auto;
+}
