@@ -61,15 +61,7 @@
         "tag": "Git",
         "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=1000&auto=format&fit=crop"
     },
-    {
-        "id": 8,
-        "title": "Figma",
-        "url": "https://www.figma.com/",
-        "description": "Найпопулярніший інструмент для дизайну інтерфейсів та прототипування.",
-        "category": "Інструменти",
-        "tag": "Дизайн",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaoauf0P6VrRGVLPPFe8G7BR_q2lo-gNq0cA&s"
-    },
+
     {
         "id": 9,
         "title": "Stack Overflow",
